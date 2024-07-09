@@ -1,12 +1,38 @@
 
-/* 
+span {
+    float: right;
+    transition: 0.2s linear;
+	opacity: 0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+li:hover span {
+	opacity: 1.0;
+}
 
-*/
+.large-title {
+    font-size: 3.5rem;
+    color: rgb(233, 216, 216);
+    font-family: "Roboto", sans-serif;
+  }
+
+  .square-input {
+    border-radius: 0;
+  }
+
+  body {
+    background-color: rgb(245,245,245);
+  }
+
+  .post-it1 {
+    background-color: white;
+    width: 380px;
+    margin: auto;
+    height: 8px;
+  }
+
+  .post-it2 {
+    background-color: white;
+    width: 370px;
+    margin: auto;
+    height: 8px;
+  }
