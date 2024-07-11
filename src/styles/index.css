@@ -36,3 +36,9 @@ li:hover span {
     margin: auto;
     height: 8px;
   }
+
+  .invisible-border {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
